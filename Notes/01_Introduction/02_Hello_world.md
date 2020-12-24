@@ -77,6 +77,21 @@ The underscore `_` holds the last result.
 
 *This is only true in the interactive mode.* You never use `_` in a program.
 
+
+### Nicer Interactive Mode
+
+IPython provides a nicer Interactive mode, where you can use :
+
+- Tab to autocomplete commands
+- `?` to get help on a function or module
+- `??` to see the source code
+- all shell commands to list files `ls`, make a folder `mkdir folderName`, change directory `cd folderName`
+- `whos` to see the variables defined
+- `run demo.py` to run a `.py` program
+- ....
+
+I use IPython interpeter when writing new code, debugging ...
+
 ### Creating programs
 
 Programs are put in `.py` files.

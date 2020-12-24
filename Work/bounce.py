@@ -1,3 +1,5 @@
-# bounce.py
-#
-# Exercise 1.5
+"""
+Exercise 1.5.
+
+bounce.py
+"""

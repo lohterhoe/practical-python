@@ -1,3 +1,4 @@
-# fileparse.py
-#
-# Exercise 3.3
+"""Exercise 3.3.
+
+fileparse.py
+"""

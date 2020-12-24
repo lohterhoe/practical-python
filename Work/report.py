@@ -1,3 +1,4 @@
-# report.py
-#
-# Exercise 2.4
+"""Exercise 2.4.
+
+report.py
+"""

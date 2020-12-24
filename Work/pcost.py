@@ -1,3 +1,4 @@
-# pcost.py
-#
-# Exercise 1.27
+"""Exercise 1.27.
+
+pcost.py
+"""
