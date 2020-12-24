@@ -290,4 +290,8 @@ class TestStock(unittest.TestCase):
              s.shares = '100'
 ```
 
+### Exercise 8.2: Writing Tests with pytest
+
+Write a pytest version of the previous test.
+
 [Contents](../Contents.md) \| [Previous (7.5 Decorated Methods)](../07_Advanced_Topics/05_Decorated_methods.md) \| [Next (8.2 Logging)](02_Logging.md)
