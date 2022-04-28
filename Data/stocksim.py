@@ -56,8 +56,7 @@ def read_history(filename):
 
 def csv_record(fields):
     """Format CSV record."""
-    s = '"%s",%0.2f,"%s","%s",%0.2f,%0.2f,%0.2f,%0.2f,%d' % tuple(fields)
-    return s
+    return '"%s",%0.2f,"%s","%s",%0.2f,%0.2f,%0.2f,%0.2f,%d' % tuple(fields)
 
 
 class StockTrack(object):
@@ -84,9 +83,10 @@ class StockTrack(object):
         self.history.sort(key=lambda t: t[3])
         # Find the first entry who's time is behind the given time
         self.index = 0
-        while self.index < len(self.history):
-            if self.history[self.index][3] > time:
-                break
+        while (
+            self.index < len(self.history)
+            and not self.history[self.index][3] > time
+        ):
             self.index += 1
         self.open = self.history[0][5]
         self.initial = self.history[0][1] - self.history[0][4]
